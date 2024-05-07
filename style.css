@@ -56,3 +56,54 @@
     align-items: flex-start;
     gap: 30px;
 }
+.your{
+    background-color: darkslategrey;
+    display: flex;
+    margin: auto;
+    width: 1300px;
+    min-height: 670px;
+}
+.sales>img{
+ width: 550px;
+}
+.sales>h1{
+    font-size: xx-large;
+    font-weight: 700;
+    color: white;
+}
+.sales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.you>img{
+    width: 300px;
+    padding: 30px 25px;
+}
+.tell>input{
+    font-size: medium;
+    font-weight: 600;
+    padding: 10px 0px;
+    margin-top: 15px;
+}
+.tell>select{
+    font-size: medium;
+    font-weight: 600;
+    padding: 20px 0px;
+    margin-top: 15px;
+
+}
+.btn3{
+    text-transform: uppercase;
+    padding: 20px 50px;
+    cursor: pointer;
+    background-color: firebrick;
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
