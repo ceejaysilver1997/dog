@@ -160,7 +160,7 @@
 .free>h1{
     font-size:55px;
     font-weight: 700;
-    color: cornflowerblue;
+    color: lightslategrey;
 }
 .free>h2{
     font-size:57px;
@@ -175,4 +175,257 @@
     padding: 30px 50px;
     gap: 40px;
     margin-top: 50px;
+}
+.calls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: darkslategrey;
+    font-size: large;
+}
+.no{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.no>p{
+    font-size:25px;
+    font-weight: 300;
+    color: darkslategrey;
+}
+.what{
+    display: flex;
+    padding: 0px 80px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid beige ;
+    margin: auto;
+    max-width: 1250px;
+    height: 520px;
+    background-color: beige;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.what-group{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 307px;
+}
+.industry{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    gap: 30px;
+    width: 750px;
+}
+.retai{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0.2px solid lightgray;
+    padding: 8px;
+    width: 190px;
+    font-size: large;
+    background-color: lightgrey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.retai:hover{
+    background-color: grey;
+    border: 0.5px solid black;
+}
+.reta{
+    border: 0.2px solid grey;
+    background-color: white;
+    padding: 2px;
+    font-size: medium;
+}
+.reta:hover{
+    background-color: black;
+    color: white;
+}
+.ret{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.btn4{
+    padding: 13px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    border-radius: 6px;
+    font-weight: 800;
+    color: lightslategrey;
+}
+.icon{
+    border: 0.2 solid rgb(222, 218, 212);
+    background-color: blanchedalmond;
+    padding: 8px;
+    border-radius: 2px;
+    font-size: larger;
+    font-weight: 600;
+}
+.ico{
+    display: flex;
+    gap: 15px;
+}
+.ic{
+    border: 0.2 solid rgb(222, 218, 212);
+    background-color: blanchedalmond;
+    padding: 8px;
+    color: lightslategrey;
+    border-radius: 4px;
+}
+.fam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 15px;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: 900;
+    max-width: 920px;
+    margin: auto;
+    color: darkslategrey;
+}
+.lux{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: dimgrey;
+}
+.lux>img{
+    width: 240px;
+}
+.lux>p{
+    font-size: large;
+
+}
+.ury{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    padding: 15px 15px;
+    gap: 15px;
+    margin: auto;
+    max-width: 1320px;
+}
+.btn5{
+    padding: 25px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 6px;
+    font-weight: 800;
+    color: white;   
+    width: 280px;
+
+}
+.divbtn{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+.readyy{
+    border: 0.4px solid grey;
+    padding: 30px 15px;
+    margin: auto;
+    max-width: 310px;
+    background-color: white;
+    /* display: grid; */
+    /* grid-template-columns: repeat( 4, 1fr); */
+}
+.readyyy{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 40px;
+}
+.ready{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 30px;
+    color: darkslategrey;
+}
+.ready>h1{
+    font-size: xx-large;
+    margin: auto;
+    max-width: 820px;
+}
+.rea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: darkslategrey;
+}
+.rea>p{
+    font-size: large;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+.rea>i{
+    font-size: 100px;
+}
+.ead{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+
+}
+.eady{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.btn6{
+    padding: 25px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 6px;
+    font-weight: 800;
+    color: white;   
+    width: 260px;   
+}
+.ead>p{
+    font-weight: 900;
+    font-size: large;
+    color: darkslategrey;
+}
+.ead>i{
+ color: khaki;
+
+}
+.gene{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding: 45px;background-color: darkslategrey;
+    color: white;
+    height: 300px;
+}
+.gene>h1{
+    font-size: 60px;
+}
+.gene>p{
+    font-size: larger;
 }
