@@ -429,3 +429,147 @@
 .gene>p{
     font-size: larger;
 }
+.media{
+    display: flex;
+    padding: 20px 45px;
+    margin: auto;
+    max-width: 1300px;
+    gap: 40px;
+    margin-top: 50px;
+
+}
+.bali{
+     font-weight: 200;
+     font-size: large;
+     width: 510px;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+.medi>h1{
+    font-size: 40px;
+}
+.medi>h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+.medi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    color: darkslategrey;
+}
+.med>img{
+   width: 600px; 
+   height: 400px;
+   margin-top: 90px;
+}
+.readd{
+    display: flex;
+    gap: 12px;
+    padding: 20px 45px;
+    margin: auto;
+    max-width: 1300px;
+    color: darkslategrey;
+}
+.readd>h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.readdd{
+    padding: 10px 150px;
+    max-width: 800px;
+    color: darkslategrey;
+    font-weight: 200;
+     font-size: large;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     margin-right: 300px;
+}
+.months{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.readddd{
+    padding: 10px 50px;
+    max-width: 600px;
+    color: white;
+    font-weight: 200;
+     font-size: large;
+     height: 130px;
+     display: flex;
+     align-items: center;
+     gap: 70px;
+     border: 0.5px solid darkslategrey;
+     background-color: darkslategrey;
+     margin-left: 140px;
+     margin-right: 140px;
+     border-radius: 14px;
+}
+.waterpro{
+    display: flex;
+    padding: 20px 35px;
+    margin: auto;
+    max-width: 1300px;
+    gap: 30px;
+    margin-top: 30px;
+}
+.waterpr>img{
+    width: 600px; 
+    height: 400px;
+    margin-top: 90px;
+}
+.page{
+     padding: 10px 50px;
+    max-width: 600px;
+    color: white;
+    font-weight: bold;
+     font-size: large;
+     height: 130px;
+     display: flex;
+     align-items: center;
+     gap: 70px;
+     border: 0.5px solid darkslategrey;
+     background-color: darkslategrey;
+     border-radius: 11px;  
+     margin-top: 70px; 
+    }
+.page1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.page1>h4{
+    text-align: center;
+    font-size: large;
+}
+
+.water{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    color: darkslategrey;
+    margin-top: 50px;
+}
+.water>h1{
+    font-size: 40px;
+}
+.water>p{
+    font-weight: 200;
+    font-size: x-large;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.water>h4{
+    font-size: 20px;
+    font-weight: 800;
+}
