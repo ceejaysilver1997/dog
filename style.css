@@ -521,7 +521,7 @@
 .waterpr>img{
     width: 600px; 
     height: 400px;
-    margin-top: 90px;
+    margin-top: 150px;
 }
 .page{
      padding: 10px 50px;
@@ -529,7 +529,7 @@
     color: white;
     font-weight: bold;
      font-size: large;
-     height: 130px;
+     height: 115px;
      display: flex;
      align-items: center;
      gap: 70px;
@@ -572,4 +572,123 @@
 .water>h4{
     font-size: 20px;
     font-weight: 800;
+}
+.divbtn1{
+    display: flex;
+    margin-top: 75px;
+    justify-content: center;
+}
+.bkgpic{
+    background-image:url("64.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 750px;
+    padding: 20px;
+}
+.find{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 28px;
+    margin-top: 50px;
+}
+.find>p{
+    font-weight: 200;
+    font-size: x-large;
+    color: darkslategrey;
+}
+.find>h1{
+    font-size: 40px;
+    color: darkslategrey;
+}
+.find>button{
+    display: flex;
+    margin-top: 35px;
+    justify-content: center; 
+}
+.fin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border: 0.7px solid black;
+    border-radius: 12px;
+    padding: 12px 10px;
+    color: darkslategrey;
+    font-weight: 200;
+    font-size: larger;
+}
+.learn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    margin-top: 50px;
+    gap: 20px;
+    color: darkslategrey;
+}
+.learn>h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+.learn>p{
+    font-size: 30px;
+    font-weight: 200;
+}
+.learnn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.learnn>p{
+    font-weight: 200;
+    font-size: larger;
+    color: darkslategrey;
+}
+.earnn{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.learnn>i{
+    color: khaki;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.lear{
+    display: flex;
+    padding: 20px 30px;
+    margin: auto;
+    max-width: 1400px;
+}
+.lear>img{
+    margin-top: 70px;
+    height: 350px;
+}
+.lace{
+    padding: 20px 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.lace>input{
+    height: 50px;
+    width: 580px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+.divbtn7{
+    padding: 0px 30px;
+}
+.btn7{
+ padding: 12px 39px;
+ background-color: darkslategrey;
+ color: white;
+ cursor: pointer;
+ border-radius: 5px;
+ text-transform: uppercase;
 }
